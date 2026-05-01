@@ -1,3 +1,3 @@
-from .segmenter import DzongkhaSegmenter
+from .segmenter import DzongkhaTokenizer
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
