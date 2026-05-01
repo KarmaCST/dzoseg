@@ -53,3 +53,25 @@ Training Data: Cleaned Dzongkha Web & Literary Corpus
 This project is licensed under the MIT License.
 Maintained by: Karma Wangchuk
 Contact: karma.cst@rub.edu.bt
+
+---
+
+## Citation
+
+If you use `dzoseg` in your research or projects, please cite the following paper:
+
+**APA:**
+Wangchuk, K., Wangchuk, T., & Namgyel, T. (2023). Dzongkha next words prediction using bidirectional LSTM. *Bhutan Journal of Research & Development*, *Special edition 2023*, 1–17. https://doi.org/10.17102/bjrd.rub.se2.038
+
+**BibTeX:**
+```bibtex
+@article{wangchuk2023dzongkha,
+  title={Dzongkha Next Words Prediction Using Bidirectional LSTM},
+  author={Wangchuk, Karma and Wangchuk, Tandin and Namgyel, Tenzin},
+  journal={Bhutan Journal of Research \& Development},
+  volume={Special edition 2023},
+  pages={1--17},
+  year={2023},
+  publisher={Royal University of Bhutan},
+  doi={10.17102/bjrd.rub.se2.038}
+}
