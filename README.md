@@ -1,3 +1,6 @@
+[![PyPI version](https://img.shields.io/pypi/v/dzoseg.svg)](https://pypi.org/project/dzoseg/)
+![License](https://img.shields.io/github/license/KarmaCST/dzoseg)
+
 # dzoseg 🇧🇹
 [![PyPI version](https://img.shields.io/pypi/v/dzoseg.svg)](https://pypi.org/project/dzoseg/)
 `dzoseg` is a lightweight Python library for Dzongkha text segmentation. It offers a hybrid approach, allowing users to choose between high-performance AI subword tokenization (using SentencePiece) and traditional Tseg-based segmentation.
@@ -71,6 +74,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Maintained by: Karma Wangchuk/https://github.com/KarmaCST/
 Contact: karma.cst@rub.edu.bt
-
-
-
