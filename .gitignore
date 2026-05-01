@@ -1,0 +1,20 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and Distribution folders
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# System files
+.DS_Store
+
+# Jupyter & Local files
+.ipynb_checkpoints/
+.local/

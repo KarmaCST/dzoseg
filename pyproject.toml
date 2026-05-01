@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dzoseg"
+version = "0.1.0"
+description = "A Dzongkha tokenizer and segmenter (Subword & Tseg)"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name="Karma Wangchuk", email="karma.cst@rub.edu.bt" }]
+dependencies = [
+    "sentencepiece>=0.1.99",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"dzoseg" = ["models/*.model", "models/*.vocab"]
