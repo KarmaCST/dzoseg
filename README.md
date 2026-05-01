@@ -1,4 +1,4 @@
-# dzoseg 🇧🇹
+# dzoseg-Dzongkha Tokenizer
 
 [![PyPI version](https://img.shields.io/pypi/v/dzoseg.svg)](https://pypi.org/project/dzoseg/)
 ![License](https://img.shields.io/github/license/KarmaCST/dzoseg)
