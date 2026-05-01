@@ -3,7 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/dzoseg.svg)](https://pypi.org/project/dzoseg/)
 ![License](https://img.shields.io/github/license/KarmaCST/dzoseg)
 
-`dzoseg` is a lightweight Python library for Dzongkha text segmentation. It offers a hybrid approach, allowing users to choose between high-performance AI subword tokenization (using SentencePiece) and traditional Tseg-based segmentation.
+`dzoseg` is a lightweight Python library for Dzongkha Tokenizer. It offers a hybrid approach, allowing users to choose between high-performance AI subword tokenization (using SentencePiece) and traditional Tseg-based segmentation.
 
 ## 🚀 Features
 * **Subword Segmentation:** Uses a pre-trained **Unigram** model with a 32,000 vocabulary size for deep learning applications.
