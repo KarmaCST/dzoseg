@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dzoseg"
-version = "0.1.6"
+version = "0.1.8"
 description = "A Dzongkha tokenizer and segmenter (32k Subword & Tseg)"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -28,5 +28,4 @@ classifiers = [
 where = ["src"]
 
 [tool.setuptools.package-data]
-# This ensures your specific 32k models are included in the .whl and .tar.gz files
-"dzoseg" = ["models/dzo_unigram_32000.model", "models/dzo_unigram_32000.vocab"]
+"dzoseg.models" = ["*.model", "*.vocab"]
